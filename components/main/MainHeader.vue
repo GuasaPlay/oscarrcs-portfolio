@@ -8,7 +8,7 @@
           class="mx-auto my-4 block w-[120px] border-8 border-gray-800 rounded-full"
         />
         <h1 class="text-2xl font-poppins font-semibold text-center text-white">
-          <NuxtLink to="/">Oscar Calle</NuxtLink>
+          <NuxtLink to="/#home">Oscar Calle</NuxtLink>
         </h1>
         <div class="mt-4 text-center">
           <SocialMediaLink to="https://www.linkedin.com/in/oscarrcs/">
@@ -23,7 +23,7 @@
         </div>
         <nav class="mt-8 relative flex flex-wrap items-center">
           <ul class="flex-1">
-            <NavLink to="#hero" name="hero">
+            <NavLink to="#home" name="home">
               <span class="w-6 h-6 mr-2"><HomeIcon /></span>
               <span class="">Inicio</span>
             </NavLink>
@@ -35,17 +35,13 @@
               <span class="w-6 h-6 mr-2"><TableIcon /></span>
               <span class="">Portfolio</span>
             </NavLink>
-            <NavLink to="#contact" name="contact">
+            <!-- <NavLink to="#contact" name="contact">
               <span class="w-6 h-6 mr-2"><MailIcon /></span>
               <span class="">Contacto</span>
-            </NavLink>
+            </NavLink> -->
           </ul>
         </nav>
       </div>
     </div>
   </header>
 </template>
-
-<script></script>
-
-<style lang="postcss"></style>
