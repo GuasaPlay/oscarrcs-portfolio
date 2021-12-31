@@ -3,7 +3,7 @@
     <NuxtLink
       :to="to"
       class="w-full text-slate-400 items-center flex py-3 px-4 mb-2 text-[15px] font-openSans rounded-lg transition-colors hover:bg-gray-800"
-      active-class="bg-gray-800 !text-white"
+      active-class="bg-gray-800 !text-rose-500"
     >
       <slot />
     </NuxtLink>

@@ -2,23 +2,23 @@
   <div>
     <section
       id="home"
-      class="w-full h-screen bg-fixed bg-cover py-16 overflow-hidden flex items-center justify-center flex-col before:content-[''] before:absolute before:bg-black/30 before:top-0 before:left-0 before:right-0 before:bottom-0 z-10"
+      class="w-full h-screen bg-fixed bg-cover bg-right py-16 overflow-hidden flex items-center justify-center flex-col before:content-[''] before:absolute before:bg-black/30 before:top-0 before:left-0 before:right-0 before:bottom-0 z-10"
       style="
         background-image: url('https://firebasestorage.googleapis.com/v0/b/oscarrcs-portfolio-temp.appspot.com/o/hero-oscar.jpg?alt=media&token=0c1f017d-dce7-4dc7-a95a-a70a272b9b47');
       "
     >
-      <div class="text-white relative min-w-[300px] z-20">
-        <h1 class="font-raleway font-bold text-5xl mb-3">
+      <div class="text-white relative min-w-[300px] lg:ml-60 z-20">
+        <h1 class="font-raleway font-bold text-3xl md:text-5xl mb-3">
           Hola, soy Oscar Calle
         </h1>
-        <h2 class="font-medium text-xl mb-3 font-poppins">
+        <h2 class="font-medium text-lg md:text-xl mb-3 font-poppins">
           Me puedes decir
           <span
             class="underline underline-offset-[5px] decoration-rose-600 decoration-2"
             >GuasaPlay</span
           >
         </h2>
-        <p class="font-normal text-lg ml-px">
+        <p class="font-normal text-base md:text-lg ml-px">
           <span>Soy</span>
           <span
             class="underline underline-offset-[5px] decoration-rose-600 decoration-2"
@@ -27,7 +27,7 @@
         </p>
       </div>
     </section>
-    <div class="ml-[300px]">
+    <div class="lg:ml-[300px]">
       <section id="about" class="mt-6 pt-12 px-3">
         <h3 class="font-bold text-2xl text-slate-700">Sobre mi</h3>
         <span class="mt-2 block w-14 h-[3px] bg-rose-500"></span>
@@ -193,7 +193,7 @@
         <h3 class="font-bold text-2xl text-slate-700">Portfolio</h3>
         <span class="mt-2 block w-14 h-[3px] bg-rose-500"></span>
         <div class="font-openSans text-slate-700 mt-8">
-          <div class="grid grid-cols-3 gap-7">
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7">
             <a href="https://www.sismapi.com/" target="__blank">
               <div class="w-full h-[250px] shadow-md rounded-xl">
                 <img

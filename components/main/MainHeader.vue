@@ -1,5 +1,7 @@
 <template>
-  <header class="px-4 w-[300px] h-screen bg-gray-900 fixed top-0 left-0 z-30">
+  <header
+    class="px-4 w-[300px] h-screen bg-gray-900 fixed top-0 left-0 z-30 hidden lg:block"
+  >
     <div class="flex flex-col">
       <div>
         <img
