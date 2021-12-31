@@ -8,7 +8,7 @@
       "
     >
       <div
-        class="absolute bottom-7 left-1/2 transform -translate-x-1/2 z-20 w-10 h-10 text-white block lg:hidden"
+        class="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-20 w-10 h-10 text-white block lg:hidden"
       >
         <ChevronDownIcon class="animate-bounce" />
       </div>
