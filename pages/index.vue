@@ -4,15 +4,24 @@
       id="home"
       class="w-full h-screen bg-fixed bg-cover py-16 overflow-hidden flex items-center justify-center flex-col before:content-[''] before:absolute before:bg-black/30 before:top-0 before:left-0 before:right-0 before:bottom-0 z-10"
       style="
-        background-image: url('https://bootstrapmade.com/demo/templates/iPortfolio/assets/img/hero-bg.jpg');
+        background-image: url('https://firebasestorage.googleapis.com/v0/b/oscarrcs-portfolio-temp.appspot.com/o/hero-oscar.jpg?alt=media&token=0c1f017d-dce7-4dc7-a95a-a70a272b9b47');
       "
     >
       <div class="text-white relative min-w-[300px] z-20">
-        <h1 class="font-bold text-5xl mb-2">Oscar Calle</h1>
+        <h1 class="font-raleway font-bold text-5xl mb-3">
+          Hola, soy Oscar Calle
+        </h1>
+        <h2 class="font-medium text-xl mb-3 font-poppins">
+          Me puedes decir
+          <span
+            class="underline underline-offset-[5px] decoration-rose-600 decoration-2"
+            >GuasaPlay</span
+          >
+        </h2>
         <p class="font-normal text-lg ml-px">
           <span>Soy</span>
           <span
-            class="underline underline-offset-[6px] decoration-rose-600 decoration-2"
+            class="underline underline-offset-[5px] decoration-rose-600 decoration-2"
             >Ingeniero de Sistemas</span
           >
         </p>
