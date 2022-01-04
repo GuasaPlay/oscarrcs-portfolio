@@ -19,7 +19,7 @@
           <SocialMediaLink to="https://www.linkedin.com/in/oscarrcs/">
             <GitHubIcon />
           </SocialMediaLink>
-          <SocialMediaLink to="https://www.linkedin.com/in/oscarrcs/">
+          <SocialMediaLink to="https://twitter.com/GuasaPlay">
             <TwitterIcon />
           </SocialMediaLink>
         </div>
